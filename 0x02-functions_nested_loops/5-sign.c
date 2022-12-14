@@ -8,6 +8,7 @@
  * 
  * Return: 1 is greater than zero. 0 is zero.
  */
+
 int print_sign(int n)
 {
 	if (n > 0)
@@ -23,6 +24,7 @@ int print_sign(int n)
 	else
 	{
 		_putchar(48);
+		return(0);
 	}
 	_putchar('\n');
 }
