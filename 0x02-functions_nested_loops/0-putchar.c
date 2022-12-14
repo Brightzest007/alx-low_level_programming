@@ -1,22 +1,21 @@
 #include "main.h"
 
 /**
- * main - prints _putchar followed by a newline
+ * main - Prints _putchar
  *
- * Return - returns 0 (Sucess)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int _putchar('_');
-	int _putchar('p');
-	int _putchar('u');
-	int _putchar('t');
-	int _putchar('c');
-	int _putchar('h');
-	int _putchar('a');
-	int _putchar('r');
-	int _putchar('\n');
+	int txt[] = {95, 112, 117, 116, 99, 104, 97, 114}
+	int j,i;
 
+	i = sizeof(txt) / sizeof(int);
+	for (j = 0; j < i; j++)
+	{
+		_putchar(txt[j]);
+	}
+	_putchar('\n');
 	return (0);
 }
