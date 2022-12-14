@@ -8,14 +8,14 @@
 
 int main(void)
 {
-	int txt[] = {95, 112, 117, 116, 99, 104, 97, 114}
-	int j,i;
-
-	i = sizeof(txt) / sizeof(int);
-	for (j = 0; j < i; j++)
-	{
-		_putchar(txt[j]);
-	}
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
 	return (0);
 }
