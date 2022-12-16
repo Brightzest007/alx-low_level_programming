@@ -11,11 +11,11 @@ void print_most_numbers(void)
 {
 	int j;
 
-	for (ch = 48; ch < 58; ch++)
+	for (j = 48; j < 58; j++)
 	{
-		if (ch != 50 && ch != 52)
+		if (j != 50 && j != 52)
 		{	
-			_putchar(ch);
+			_putchar(j);
 		}
 	}
 	_putchar('\n');
